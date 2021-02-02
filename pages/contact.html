@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/hover-min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/me.png" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/form_validate.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/177e77bafb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/pages/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 3000,
+        });
+      });
+    </script>
+        <script>
+          $(window).on("load", function () {
+            $(".load-wrapper").fadeOut("slow");
+          });
+        </script>
+    <title>Contact Me</title>
+  </head>
+  <body class="tp_bg" style="background-color:rgba(62, 60, 90, 1);">
+    <img
+      class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded justify-center mx-auto "
+      style="
+        width: 100%;
+        height: 110%;
+        position: absolute;
+        background-size: cover;
+        
+      "
+      alt="hero"
+      src="/assets/bg_3.gif"
+    />
+    <header class="tp_bg text-gray-700 body-font">
+      <style>
+        .logo {
+          top: 10%;
+          width: 50px;
+          height: 50px;
+        }
+        .subtitle_2 {
+          text-align: center;
+          margin-top: 50px;
+          font-size: 35px;
+          font-weight: 600;
+          color: black;
+          font-family: "Noteworthy";
+        }
+        .head {
+          font-family: "Din-Condensed";
+        }
+        .btn_1 {
+          background-color: #ff436a;
+          border-radius: 30px;
+        }
+        .btn_1:hover {
+          background-color: #eb2a52;
+          box-shadow: 0px 0px 16px 0px rgba(255, 67, 106, 0.3);
+        }
+        .btn_2 {
+          border-width: 2px;
+          border-color: #ff436a;
+          border-radius: 30px;
+        }
+        .btn_2:hover {
+          box-shadow: 0px 0px 16px 0px rgba(255, 67, 106, 0.3);
+        }
+        .dp {
+          width: 500px;
+          height: 500px;
+        }
+        .sp_1 {
+          width: 140px;
+          height: 140px;
+          margin-left: -34px;
+        }
+        .sp_title {
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 40px;
+        }
+        .sp_title_2 {
+          position: absolute;
+        }
+        .sp_bg {
+          border-radius: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sub {
+          margin-top: 60px;
+          margin-left: -195px;
+        }
+        .sub_2 {
+          margin-top: 60px;
+          margin-left: -155px;
+        }
+        .Showcase_title_2 {
+          font-family: "Noteworthy";
+          margin-left: au;
+          margin-right: auto;
+          text-align: center;
+        }
+        .skill_bg {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+        }
+        .edu_bg {
+          margin-top: 100px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+        }
+        .hobby_bg {
+          margin-top: 100px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          background-color: #f2ecd2;
+        }
+        .gif_2 {
+          width: 600px;
+          height: 600px;
+        }
+        .rotateimg180 {
+  -webkit-transform:rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  transform: rotate(100deg);
+}
+        .intro_bg {
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+          border-radius: 10px;
+        }
+        .tp_title {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .star_3 {
+          color: gray;
+        }
+        .star {
+          height: 30px;
+          width: 30px;
+        }
+        .heart {
+          height: 30px;
+          width: 30px;
+        }
+        .gif_1 {
+          height: 100%;
+          width: 100%;
+        }
+        .i_1 {
+          height: 40px;
+          width: 40px;
+          margin-top: 30px;
+        }
+        .i_1:hover {
+          box-shadow: 0px 0px 16px 0px rgba(255, 67, 106, 0.3);
+        }
+        .tp_bg {
+          background-color: #f7f7f7;
+        }
+        .coffee {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bg {
+          position: absolute;
+          width: auto;
+          height: auto;
+          margin-top: -20%;
+        }
+        .icon-bar {
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+        }
+      </style>
+      <div
+        class="tp_bg container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+      <div class="flex flex-col text-center w-full mb-5">
+      </div>
+        <div
+          class="icon-bar hvr-grow-shadow mb-5 wow fadeInDownBig"
+          data-wow-duration="1.5s"
+        >
+          <a class="" href="/index.html"><i class="fa fa-home"></i></a>
+          <a href="/pages/works.html"><i class="fa fa-lightbulb"></i></a>
+          
+          <a class="active" href="/pages/contact.html"><i class="fa fa-phone-alt"></i></a>
+        </div>
+      </div>
+    </header>
+    <section class="text-gray-700 body-font relative">
+      <div class="container px-5 py-24 mx-auto" style="margin-top: -60px;" >
+        <div class="flex flex-col text-center w-full mb-12">
+          <Showcase_title
+            class="sm:text-3xl text-2xl font-bold title-font mb-4 text-white wow bounceInDown" data-wow-duration="2s" style="font-size:40px;"
+          >
+            Ping Me Up!
+          </Showcase_title>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base font-bold text-white wow bounceInDown" data-wow-duration="2s">
+            Got Something Interesting? Spill the beans<br> & Lets Change The World Together!
+          </p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div id="error_message" class="w-full" style="border-radius: 30px; box-shadow: 0px 0px 10px 0px rgba(255, 67, 106, 0.3);">
+     
+            </div>
+            <form class="flex flex-wrap -m-2" id="myform" onsubmit = "return validate();" method="POST" action="https://formspree.io/mdowlgzw">
+            <div class="p-2 w-1/2 wow bounceIn" data-wow-delay="1s">
+              <input
+                class="w-full bg-gray-100 rounded-full border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-2" style="box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4); opacity:0.9;"
+                placeholder="Name"
+                id="name"
+                type="text"
+                name="name"
+              />
+            </div>
+            <div class="p-2 w-1/2 wow bounceIn" data-wow-delay="1s">
+              <input
+                class="w-full bg-gray-100 rounded-full border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-2"
+                placeholder="Email"
+                id="email"
+                style="box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4); opacity:0.9;"
+                type="email"
+                name="email"
+              />
+            </div>
+            <div class="p-2 w-1/2 wow bounceIn" data-wow-delay="1s">
+              <select id="category" name="category" class=" w-full bg-gray-100 rounded-full border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-3" style="box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4); opacity:0.9;">
+                <option>Who are you?</option>
+                <option>Student</option>
+                <option >Professional</option>
+                <option >Company</option>
+                <option >Investor</option>
+                <option >Other</option>
+            </select>
+            </div>
+            <div class="p-2 w-1/2 wow bounceIn" data-wow-delay="1s">
+              <input
+                class="w-full bg-gray-100 rounded-full border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-2"
+                placeholder="Mobile Number (Optional)"
+                style="box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4); opacity:0.9;"
+                type="number"
+                id="phone"
+                name="phone"
+              />
+            </div>
+            <div class="p-2 w-full wow bounceIn" data-wow-delay="1s">
+              <textarea
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-red-500 text-base px-4 py-2 resize-none block"
+                placeholder="Message" style="opacity: 0.9; border-radius: 20px; box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4)" id="message" name="message"
+              ></textarea>
+            </div>
+            <div class="p-2 w-full">
+              <button
+                class="flex mx-auto text-white bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded-full text-lg wow bounceInUp" data-wow-delay="1s" type="submit"
+              >
+                Submit
+              </button>
+            </div>
+            <div class="p-2 w-full pt-8  text-center wow bounceInUp" data-wow-delay="2s" style="margin-top: -10px;">
+              <a class="text-gray-100 font-bold text-lg">saksham271.sg@gmail.com</a>
+              <p class="leading-normal my-5 text-lg text-white">
+                +91 7982613501
+              </p>
+              </span>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-gray-700 body-font" style="background-color:rgba(62, 60, 90, 1);">
+        <div
+          class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+        >
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100"
+          >
+            <span class="ml-3 text-xl">Saksham Gupta</span>
+          </a>
+          <p
+            class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+          >
+            © 2020 Saksham Gupta —
+            <a
+              
+              class="text-gray-600 ml-1"
+              rel="noopener noreferrer"
+              target="_blank"
+              >@ A Project By Saksham Gupta</a
+            >
+          </p>
+          <span
+            class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+          >
+            <div class="flex flex-row">
+              <a href="https://dribbble.com/saksham9312" target="blank"
+                ><img
+                  class="i_1 rounded-full hvr-grow-rotate"
+                  src="/assets/i_1.png"
+              /></a>
+              <a
+              href="https://github.com/saksham9312" target="blank"
+                ><img
+                  class="i_1 ml-5 rounded-full hvr-grow-rotate"
+                  src="/assets/i_2.svg"
+              /></a>
+
+              <a href="https://www.instagram.com/saksham9312/" target="blank"
+                ><img
+                  class="i_1 ml-5 rounded-full hvr-grow-rotate"
+                  src="/assets/i_4.png"
+              /></a>
+            </div>
+          </span>
+        </div>
+      </footer>
+      <div class="load-wrapper">
+        <svg class="filter" version="1.1">
+          <defs>
+            <filter id="gooeyness">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10"
+                result="gooeyness" />
+              <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="dots">
+          <div class="dot mainDot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+  </body>
+</html>

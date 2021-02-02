@@ -1,0 +1,428 @@
+<section class="text-gray-700 body-font">
+  <div class=" sp_bg container px-24 py-24 mx-auto flex flex-wrap bg-white mt-10">
+    <Showcase_title
+    class=" sp_title sm:text-5xl text-2xl font-bold  text-gray-900 mb-10 text-center"
+  >
+    Specialization
+  </Showcase_title>
+    <div class="flex flex-wrap w-full">
+      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-20 h-20  inline-flex items-center justify-center text-white relative z-10">
+            <img class="sp_1" src="/assets/sp_1.svg">
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-medium title-font text-lg font-bold text-gray-900 mb-1 tracking-wider">Entrepreneurship</h2>
+            <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          </div>
+        </div>
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-20 h-20  inline-flex items-center justify-center text-white relative z-10">
+            <img class="sp_1" src="/assets/sp_2.svg">
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-medium title-font text-lg font-bold  text-gray-900 mb-1 tracking-wider">UX Designing</h2>
+            <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+          </div>
+        </div>
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-medium title-font text-lg font-bold  text-gray-900 mb-1 tracking-wider">Web Development</h2>
+            <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+          </div>
+        </div>
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">App Development</h2>
+            <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          </div>
+        </div>
+        <div class="flex relative">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Python</h2>
+            <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="text-gray-700 body-font">
+      <div
+        class="skill_bg container px-5 py-24 mx-auto flex flex-wrap bg-white"
+      >
+        <div class="flex flex-col text-center w-full mb-20">
+          <Showcase_title
+            class="sp_title sm:text-5xl text-2xl font-bold title-font mb-4 text-gray-900 hvr-grow"
+            >Top Skills</Showcase_title
+          >
+        </div>
+        <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+          <img
+            alt="feature"
+            class="gif_1 object-cover object-center h-full w-full hvr-grow-shadow"
+            src="/assets/gif_1.gif"
+          />
+        </div>
+        <div
+          class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center"
+        >
+          <div class="tp_1 flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center text-indigo-500 mb-5"
+            >
+              <img
+                class="object-cover object-center h-full w-full"
+                src="/assets/tp_1.svg"
+              />
+            </div>
+            <div class="flex-grow">
+              <h2
+                class="tp_title text-gray-900 text-lg title-font font-medium mb-3"
+              >
+                Leadership
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_2.svg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center text-indigo-500 mb-5"
+            >
+              <img
+                class="object-cover object-center h-full w-full"
+                src="/assets/tp_2.svg"
+              />
+            </div>
+            <div class="flex-grow">
+              <h2
+                class="tp_title text-gray-900 text-lg title-font font-medium mb-3"
+              >
+                Product Design & Development
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_3.svg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center text-indigo-500 mb-5"
+            >
+              <img
+                class="object-cover object-center h-full w-full"
+                src="/assets/tp_3.svg"
+              />
+            </div>
+            <div class="flex-grow mb-3">
+              <h2 class="tp_title text-gray-900 text-lg title-font font-medium">
+                Team Management
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_2.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_2.svg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mb-5 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center text-indigo-500 mb-5"
+            >
+              <img
+                class="object-cover object-center h-full w-full"
+                src="/assets/tp_4.svg"
+              />
+            </div>
+            <div class="flex-grow mb-3">
+              <h2 class="tp_title text-gray-900 text-lg title-font font-medium">
+                Marketing and Advertising
+              </h2>
+            </div>
+            <div class="flex flex-row mb-0 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_3.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_2.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2"
+                src="/assets/star_2.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+        <section class="tp_bg text-gray-700 body-font">
+      <div class="edu_bg container px-5 py-24 mx-auto flex flex-wrap bg-white">
+        <div class="flex flex-col text-center w-full mb-20">
+          <Showcase_title
+            class="sp_title sm:text-5xl text-2xl font-bold title-font mb-4 text-gray-900"
+            >My Hobbies</Showcase_title
+          >
+        </div>
+        <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+          <img
+            alt="feature"
+            class="object-cover object-center h-full w-full"
+            src="/assets/gif_1.gif"
+          />
+        </div>
+        <div
+          class=" hb flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center"
+        >
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center text-indigo-500 mb-5"
+            >
+            <img
+            class="object-cover object-center h-full w-full"
+            src="/assets/sp_3.svg"
+          />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-xl title-font font-bold mb-1">
+                Programming and Designing
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_3.svg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center  text-indigo-500 mb-2"
+            >
+            <img
+            class="object-cover object-center h-full w-full"
+            src="/assets/edm.svg"
+          />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-xl title-font font-bold mb-1">
+                Electronic Music Production
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float" 
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_2.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_2.svg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center  text-indigo-500 mb-0"
+            >
+            <img
+            class="object-cover object-center h-full w-full"
+            src="/assets/guitar.svg"
+          />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-xl title-font font-bold mb-1">
+                Singing & Playing Guitar
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_3.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_2.svg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mb-3 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center  text-indigo-500 mb-0"
+            >
+            <img
+            class="object-cover object-center h-full w-full"
+            src="/assets/sp_6.svg"
+          />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-xl title-font font-bold mb-1">
+                Playing Chess
+              </h2>
+            </div>
+            <div class="flex flex-row mb-5 lg:items-start items-center">
+              <img
+                class="star object-cover object-center h-full w-full hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_1.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_2.svg"
+              />
+              <img
+                class="star object-cover object-center h-full w-full ml-2 hvr-float"
+                src="/assets/h_2.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
